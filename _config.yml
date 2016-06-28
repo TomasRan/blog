@@ -68,5 +68,5 @@ theme: fexo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repository: git@github.com:TomasRan/tomasran.github.io.git
