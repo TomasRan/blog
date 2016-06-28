@@ -68,5 +68,6 @@ theme: fexo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+  type: github
   repository: git@github.com:TomasRan/tomasran.github.io.git
+  branch: gh-pages
