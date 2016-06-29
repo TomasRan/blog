@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: tomasran.space
 root: /
-permalink: :year/:month/:day/:title/
+permalink: archives/:abbrlink/
 permalink_defaults:
 
 # Directory
@@ -65,7 +65,27 @@ pagination_dir: page
 Plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
+- hexo-autoprefixer
+- hexo-clean-css
 
+clean_css:
+    exclude:
+        - '*.min.css'
+
+autoprefixer:
+    exclude:
+        - '*.min.js'
+
+#autolinker:
+#    enable: true
+#    newWindow: true
+#    urls: true
+#    email: true
+#    tel: false
+#    twitter: false
+#    hashtag: instagram
+#    className: 'test'
+    
 feed:
   type: atom
   path: atom.xml
@@ -73,6 +93,31 @@ feed:
 
 sitemap:
   path: sitemap.xml
+
+#html_minifier:
+#  enable: true
+#  exclude:
+#
+#css_minifier:
+#  enable: true
+#  exclude:
+#    - '*.min.css'
+#
+#js_minifier:
+#  enable: true
+#  mangle: true
+#  output:
+#  compress:
+#  exclude:
+#    - '*.min.js'
+
+#image_minifier:
+#  enable: true
+#  interlaced: false
+#  multipass: false
+#  optimizationLevel: 2
+#  pngquant: false
+#  progressive: false
 
 ## Themes: https://hexo.io/themes/
 theme: fexo
