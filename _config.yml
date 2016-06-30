@@ -5,9 +5,9 @@
 # Site
 title: tomasran's blog
 subtitle: 陶天然的博客
-description: tomasran's blog（陶天然的博客）
+description: 按图索骥只会没落与江湖
 author: TomasRan 
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -22,7 +22,7 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
-category_dir: categories
+category_dir: category
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -39,12 +39,14 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace:
 
 # Category & Tag
 default_category: uncategorized
+category_generator:
+    per_page: 10
 category_map:
 tag_map:
 
@@ -120,7 +122,7 @@ sitemap:
 #  progressive: false
 
 ## Themes: https://hexo.io/themes/
-theme: fexo
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
