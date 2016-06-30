@@ -67,8 +67,12 @@ pagination_dir: page
 Plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
+- hexo-generator-baidu-sitemap
 - hexo-autoprefixer
 - hexo-clean-css
+
+baidusitemap:
+    path: baidusitemap.xml
 
 clean_css:
     exclude:
