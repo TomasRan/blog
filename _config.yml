@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: tomasran's blog
+title: The World of TomasRan
 subtitle: 陶天然的博客
-description: 按图索骥只会没落与江湖
+description: 偶尔装装文艺的少年 
 author: TomasRan 
 language: zh-Hans
 timezone:
@@ -39,9 +39,9 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: false
-  auto_detect: false
-  tab_replace:
+  line_number: true
+  auto_detect: true
+  tab_replace: "  "
 
 # Category & Tag
 default_category: uncategorized

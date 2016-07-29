@@ -1,6 +1,6 @@
-layout: {{ layoout }}
 title: {{ title }}
 date: {{ date }}
+categories:
 tags:
 photos:
 -
