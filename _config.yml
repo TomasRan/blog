@@ -133,3 +133,8 @@ theme: next
 deploy:
   type: git
   repository: git@github.com:TomasRan/tomasran.github.io.git
+
+weixin:
+  enable: false
+  text: 欢迎大家关注：TomasRan's微信公众号
+  public: 
